@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugema Vocation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background-color: #343a40;
+        }
+        
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+        
+        .nav-link {
+            color: #fff !important;
+        }
+        
+        .section {
+            padding: 50px 0;
+        }
+        
+        .section h2 {
+            margin-bottom: 30px;
+        }
+        
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .footer a {
+            color: #fff;
+        }
+        
+        .social-links a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        
+        .social-links a:hover {
+            color: #007bff;
+        }
+        
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .navbar-brand {
+                font-size: 1.2rem;
+            }
+            .navbar-nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            .navbar-nav .nav-item {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bugema Vocation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Back to Main Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image Section -->
+    <section id="image" class="section">
+        <div class="container text-center">
+            <img src="images/welcome.jpeg" alt="Banner Image" class="img-fluid mb-3">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Bugema Vocation, where we strive to provide quality vocational education and training to students.
+            </p>
+            <p>Our institution offers a wide range of vocational courses designed to equip students with practical skills for the workforce.</p>
+            <p>Explore our programs and discover your potential with Bugema Vocation.</p>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="section">
+        <div class="container">
+            <h2>Academics</h2>
+            <p>Our academic programs cover a wide range of fields, including:</p>
+            <ul>
+                <li>Automotive Technology</li>
+                <li>Culinary Arts</li>
+                <li>Graphic Design</li>
+                <li>Information Technology</li>
+                <li>And many more...</li>
+            </ul>
+            <p>Enroll in one of our programs today and kickstart your career!</p>
+        </div>
+    </section>
+
+    <!-- Community Campus Section -->
+    <section id="community-campus" class="section">
+        <div class="container">
+            <h2>Community Campus</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/skill.jpeg" alt="Campus Image 1" class="img-fluid mb-3">
+                    <p>Explore our state-of-the-art campus facilities.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/skills2.jpeg" alt="Campus Image 2" class="img-fluid mb-3">
+                    <p>Join our vibrant community of learners.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/skills3.jpeg" alt="Campus Image 3" class="img-fluid mb-3">
+                    <p>Experience hands-on learning in a supportive environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>For inquiries or more information about our programs, feel free to contact us:</p>
+            <ul>
+                <li>Email: info@bugemavocation.com</li>
+                <li>Phone: +123 456 7890</li>
+                <li>Address: 123 Main Street, Bugema, XYZ</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="registration" class="section">
+        <div class="container">
+            <h2>Registration Form</h2>
+            <p>Register for our upcoming courses by filling out the form below:</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <span>Email: info@bugemavocation.com</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
